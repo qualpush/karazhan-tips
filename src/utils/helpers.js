@@ -10,5 +10,5 @@ export const getSpecIcon = (spec) => {
 };
 
 export const getTips = (tipsData, selectedBoss, selectedClass, selectedSpec) => {
-  return tipsData[selectedBoss]?.[selectedClass]?.[selectedSpec.toLowerCase().replace(' ', '')] || [];
+  return tipsData[selectedBoss]?.[selectedClass]?.[selectedSpec.toLowerCase()] || [];
 };
