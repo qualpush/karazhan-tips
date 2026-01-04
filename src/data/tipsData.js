@@ -129,6 +129,29 @@ export const tipsData = {
         'Keep Renew/HoTs on both tanks',
         'Be ready for random Charge damage'
       ]
+    },
+    'warlock': {
+      'affliction': [
+        'Curse of Doom (or assigned curse)',
+        'Corruption + Siphon Life + Immolate on both targets',
+        'Shadow Bolt filler between DoT refreshes',
+        'Stand at range to avoid Charge',
+        'DoTs remain during phase transitions'
+      ],
+      'demonology': [
+        'Summon Felguard at start',
+        'Curse of Doom + Corruption + Immolate',
+        'Shadow Bolt spam as filler',
+        'Felguard attacks Attumen/Midnight',
+        'Stand at range to avoid Charge'
+      ],
+      'destruction': [
+        'Curse of Doom + Immolate',
+        'Shadow Bolt spam',
+        'Stand at max range',
+        'Shadowburn at low health',
+        'Save burst for merged phase'
+      ]
     }
   },
 
@@ -201,6 +224,52 @@ export const tipsData = {
         'Prep Chain Heal after stun ends',
         'Remove Holy Fire if assigned',
         'Riptide between Repentences'
+      ]
+    },
+    'mage': {
+      'arcane': [
+        'Stack with casters at range',
+        'Cannot cast during Repentance - wait it out',
+        'Burst between Repentance casts with Arcane Power',
+        'Arcane Missiles while moving if needed',
+        'Manage mana for entire encounter'
+      ],
+      'fire': [
+        'Stack at range with casters',
+        'Scorch stacks then Fireball',
+        'Can\'t cast during Repentance',
+        'Combustion between stuns',
+        'Fire Blast while repositioning'
+      ],
+      'frost': [
+        'Stack at range',
+        'Frostbolt spam',
+        'Can\'t move during Repentance',
+        'Icy Veins between stuns',
+        'Cold Snap for second burst'
+      ]
+    },
+    'warlock': {
+      'affliction': [
+        'Full DoT rotation',
+        'Can\'t act during Repentance',
+        'Refresh DoTs after stun',
+        'Shadow Bolt spam between refreshes',
+        'Long sustained damage fight'
+      ],
+      'demonology': [
+        'Felguard stays on boss',
+        'DoTs + Shadow Bolt rotation',
+        'Can\'t act during Repentance',
+        'Mend Felguard if taking Holy Fire damage',
+        'Soul Link helps with survivability'
+      ],
+      'destruction': [
+        'Curse + Immolate',
+        'Shadow Bolt spam',
+        'Can\'t act during Repentance',
+        'Refresh dots after stun',
+        'Pure nuke fight'
       ]
     }
   },
@@ -276,6 +345,13 @@ export const tipsData = {
         'Sheep/burn Water Elementals at 40%',
         'Fire Ward for Arcane Missiles',
         'Help with interrupts'
+      ],
+      'arcane': [
+        'Stand 10+ yards from boss to avoid Counterspell silence',
+        'FREEZE completely during Flame Wreath - zero movement',
+        'Run from center during Arcane Explosion',
+        'Arcane Explosion spam on Water Elementals at 40%',
+        'Counterspell his Fireball on rotation'
       ]
     },
     'hunter': {
@@ -338,6 +414,29 @@ export const tipsData = {
         'Stay 10+ yards from boss',
         'Massive healing when Elementals spawn',
         'Bear form if you pull aggro'
+      ]
+    },
+    'warlock': {
+      'affliction': [
+        'Stay 10+ yards from boss',
+        'DO NOT MOVE during Flame Wreath',
+        'Full DoT rotation',
+        'Banish Water Elementals at 40%',
+        'Keep DoTs rolling throughout'
+      ],
+      'demonology': [
+        'Stand 10+ yards away',
+        'FREEZE during Flame Wreath',
+        'Felguard attacks boss',
+        'Banish Elementals at 40% or Felguard kills them',
+        'Soul Link reduces damage taken'
+      ],
+      'destruction': [
+        'Stand 10+ yards away',
+        'STOP during Flame Wreath',
+        'Curse + Immolate maintained',
+        'Shadow Bolt spam',
+        'Shadowfury Elementals at 40%'
       ]
     }
   },
@@ -413,6 +512,13 @@ export const tipsData = {
         'Use Arcane Power during Evocation',
         'Combustion for burst',
         'Scorch for debuff'
+      ],
+      'arcane': [
+        'Swap to Astral Flares immediately - top priority',
+        'Arcane Explosion excellent for grouped Flares',
+        'Save Arcane Power + Icy Veins for Evocation phase (triple damage)',
+        'Time your Evocation between Flare spawns',
+        'This is your best fight - huge mana-free damage window'
       ]
     },
     'hunter': {
@@ -475,6 +581,29 @@ export const tipsData = {
         'Rejuvenation on raid',
         'Tranquility during heavy damage',
         'Innervate during Evocation'
+      ]
+    },
+    'warlock': {
+      'affliction': [
+        'Swap to Flares immediately',
+        'Seed of Corruption on Flare packs',
+        'Maintain DoTs on Curator between spawns',
+        'Time Curse of Doom to tick during Evocation',
+        'Stay spread to minimize Flare damage'
+      ],
+      'demonology': [
+        'Felguard swaps to Flares',
+        'Seed of Corruption on Flare packs',
+        'Maintain DoTs on Curator',
+        'Pull Felguard back to avoid Flare threat',
+        'Huge burst during Evocation'
+      ],
+      'destruction': [
+        'Swap to Flares instantly',
+        'Seed of Corruption on packs',
+        'Rain of Fire if safe threat-wise',
+        'Time Curse of Doom for Evocation',
+        'Shadow Bolt spam on Curator'
       ]
     }
   },
@@ -580,6 +709,29 @@ export const tipsData = {
         'Maintain Winter\'s Chill debuff',
         'Ice Block if you pull threat'
       ]
+    },
+    'warlock': {
+      'affliction': [
+        'Banish assigned add if healer/caster',
+        'Full DoT rotation on Moroes (CoD, Corruption, Siphon Life)',
+        'Seed of Corruption if adds are grouped',
+        'Shadow Bolt filler',
+        'Life Tap between Garrote ticks'
+      ],
+      'demonology': [
+        'Felguard on priority kill target',
+        'Full DoT rotation on Moroes',
+        'Shadow Bolt spam',
+        'Keep Felguard alive - he\'s significant DPS',
+        'Master\'s Call to reposition Felguard'
+      ],
+      'destruction': [
+        'Curse + Immolate on Moroes',
+        'Shadow Bolt spam',
+        'Seed of Corruption if adds grouped',
+        'Shadowburn priority targets',
+        'Death Coil while moving'
+      ]
     }
   },
 
@@ -673,6 +825,29 @@ export const tipsData = {
         'Water Elemental\'s Freeze helps control',
         'Ice Lance while moving',
         'Icy Veins during burst window'
+      ]
+    },
+    'warlock': {
+      'affliction': [
+        'If Red Riding Hood, Fear and kite',
+        'Full DoT rotation on wolf',
+        'Death Coil for emergency distance',
+        'Seed of Corruption if adds spawn',
+        'Healthstone ready for emergencies'
+      ],
+      'demonology': [
+        'If Red Riding Hood, run and fear',
+        'Felguard attacks wolf',
+        'Full DoT rotation',
+        'Shadow Bolt spam',
+        'Keep Felguard buffed'
+      ],
+      'destruction': [
+        'If Red Riding Hood, Fear and kite',
+        'Curse + Immolate on wolf',
+        'Shadow Bolt spam',
+        'Shadowburn for burst',
+        'Conflagrate if talented'
       ]
     }
   },
@@ -770,6 +945,29 @@ export const tipsData = {
         'Water Elemental helps with adds',
         'Ice Lance while moving'
       ]
+    },
+    'warlock': {
+      'affliction': [
+        'Full DoT rotation on Illhoof',
+        'Swap to Demon Chains fast',
+        'Fear demons if safe',
+        'Seed of Corruption when demon pack spawns',
+        'Soulstone a healer before pull'
+      ],
+      'demonology': [
+        'Felguard on Illhoof',
+        'Full DoT rotation',
+        'Swap to Chains immediately',
+        'Felguard helps kill demons',
+        'Keep pet alive throughout'
+      ],
+      'destruction': [
+        'Curse + Immolate on Illhoof',
+        'Shadow Bolt spam',
+        'Swap to Chains fast',
+        'Rain of Fire when demons spawn',
+        'Shadowburn demons'
+      ]
     }
   },
 
@@ -866,6 +1064,29 @@ export const tipsData = {
         'Water Elemental stays out',
         'Move from Void Zones'
       ]
+    },
+    'warlock': {
+      'affliction': [
+        'Can soak Blue beam if assigned',
+        'DoTs during Ground Phase',
+        'Run during Banish Phase',
+        'Shadow Bolt spam when safe',
+        'Move from Void Zones'
+      ],
+      'demonology': [
+        'Blue beam if assigned',
+        'Felguard DPS during Ground Phase',
+        'Pull Felguard back during Banish',
+        'DoTs + Shadow Bolt rotation',
+        'Move from Void Zones'
+      ],
+      'destruction': [
+        'Blue beam if assigned',
+        'Shadow Bolt during Ground Phase',
+        'Run during Banish Phase',
+        'Curse + Immolate maintained',
+        'Move from Void Zones'
+      ]
     }
   },
 
@@ -931,29 +1152,63 @@ export const tipsData = {
         'Rook: Stay back and heal friendly pieces',
         'Knight: Move forward and damage enemy pieces',
         'Follow raid leader\'s calls for movements'
+      ],
+      'restoration': [
+        'Control Rook piece',
+        'Heal friendly pieces',
+        'Follow raid leader',
+        'No traditional healing rotation'
+      ]
+    },
+    'mage': {
+      'arcane': [
+        'Control a piece - no mage rotation',
+        'Follow raid leader instructions',
+        'Use piece abilities strategically',
+        'Dismiss Water Elemental if you had it up'
+      ],
+      'fire': [
+        'Control a piece',
+        'No fire rotation',
+        'Follow raid leader',
+        'Use piece abilities',
+        'Puzzle mechanics only'
+      ],
+      'frost': [
+        'Control a piece',
+        'No frost rotation',
+        'Dismiss Water Elemental',
+        'Follow raid leader',
+        'Puzzle encounter'
+      ]
+    },
+    'warlock': {
+      'affliction': [
+        'Control a piece',
+        'No warlock rotation',
+        'Dismiss pet',
+        'Follow raid leader',
+        'Puzzle mechanics'
+      ],
+      'demonology': [
+        'Control a piece',
+        'Dismiss Felguard',
+        'No rotation',
+        'Follow raid leader',
+        'Puzzle encounter'
+      ],
+      'destruction': [
+        'Control a piece',
+        'No rotation',
+        'Dismiss pet',
+        'Follow raid leader',
+        'Puzzle mechanics'
+      ]
+    }
   },
-  'mage': {
-    'arcane': [
-      'Arcane Blast on Terestian',
-      'Swap to Demon Chains immediately - free targets',
-      'Arcane Explosion when demons pack spawns',
-      'Stay at range, use Blink if needed',
-      'Long sustained DPS fight'
-    ],
-    'fire': [
-      'Scorch stacks on Illhoof',
-      'Fireball spam as filler',
-      'Swap to Chains fast',
-      'Blast Wave when demons spawn',
-      'Fire Blast while moving'
-    ],
-    'frost': [
-      'Frostbolt on Illhoof',
-      'Swap to Chains fast',
-      'Blizzard when demons spawn',
-      'Water Elemental helps with adds',
-      'Ice Lance while moving'
-    ]
+
+  // Prince Malchezaar
+  'prince': {
     'warrior': {
       'arms': [
         'DPS throughout fight',
@@ -1021,6 +1276,52 @@ export const tipsData = {
         'Remove Shadow Word: Pain if assigned',
         'Run from Shadow Nova',
         'Long fight - manage mana with water'
+      ]
+    },
+    'mage': {
+      'arcane': [
+        'Arcane Blast spam throughout',
+        'Spellsteal any beneficial buffs',
+        'Run from Shadow Nova instantly',
+        'Avoid Infernal landing zones',
+        'Long fight - manage mana with conservation rotation'
+      ],
+      'fire': [
+        'Scorch stacks maintenance',
+        'Fireball spam throughout',
+        'Run from Shadow Nova instantly',
+        'Avoid Infernal landing zones',
+        'Combustion on cooldown'
+      ],
+      'frost': [
+        'Frostbolt spam throughout',
+        'Run from Shadow Nova instantly',
+        'Avoid Infernal landing zones',
+        'Icy Veins on cooldown',
+        'Cold Snap for second burn'
+      ]
+    },
+    'warlock': {
+      'affliction': [
+        'Full DoT rotation maintained',
+        'Run from Shadow Nova',
+        'Avoid Infernal spawns',
+        'Shadow Bolt filler',
+        'Soulstone healer/tank'
+      ],
+      'demonology': [
+        'Felguard throughout fight',
+        'Full DoT rotation',
+        'Run from Shadow Nova',
+        'Avoid Infernals',
+        'Keep Felguard buffed and alive'
+      ],
+      'destruction': [
+        'Curse + Immolate throughout',
+        'Shadow Bolt spam',
+        'Run from Shadow Nova',
+        'Avoid Infernals',
+        'Shadowburn for execute phase'
       ]
     }
   },
@@ -1094,6 +1395,52 @@ export const tipsData = {
         'Dispel Distracting Ash fast',
         'Focus Smoking Blast victim during air phase',
         'Earth Shield on tank'
+      ]
+    },
+    'mage': {
+      'arcane': [
+        'Stand at absolute max range - avoids fear completely',
+        'Arcane Explosion to 5 Restless Skeletons during air phase',
+        'Save Arcane Power for ground phase DPS',
+        'Watch AoE threat on skeletons or you\'ll die',
+        'Ice Block available if Smoking Blast targets you'
+      ],
+      'fire': [
+        'Max range avoids Bellowing Roar fear',
+        'Flamestrike skeleton pack during air phase',
+        'Control AoE threat carefully',
+        'Move from Charred Earth and Rain of Bones',
+        'Combustion during ground phase burn'
+      ],
+      'frost': [
+        'Max range avoids Bellowing Roar fear',
+        'Frost Nova + Blizzard on Skeletons during air phase',
+        'Watch AoE threat on skeletons',
+        'Stay within 40 yards or triggers Fireball Barrage',
+        'Ice Block if Smoking Blast targets you'
+      ]
+    },
+    'warlock': {
+      'affliction': [
+        'Max range avoids fear',
+        'DoT Skeletons during air but watch threat',
+        'Fear can be broken with PvP trinket',
+        'Move from ground effects',
+        'Soulstone healer before pull'
+      ],
+      'demonology': [
+        'Max range avoids fear',
+        'Felguard attacks boss',
+        'DoTs on Nightbane',
+        'Pull Felguard during air phase (skeletons dangerous)',
+        'Resummon if Felguard dies to mechanics'
+      ],
+      'destruction': [
+        'Max range positioning',
+        'Rain of Fire on Skeletons but control threat',
+        'Shadowfury to stun skeleton pack',
+        'Move from Charred Earth fast',
+        'Long fight - conserve mana'
       ]
     }
   }
