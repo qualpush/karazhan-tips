@@ -1,0 +1,49 @@
+/* Common styles for Karazhan Tips App */
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle:wght@400;700&display=swap');
+
+.form-select {
+  @apply w-full bg-gray-950 border border-gray-700 rounded-lg px-4 py-2 text-gray-200 
+         focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent;
+}
+
+.main-title {
+  font-family: 'BBH Bartle', serif;
+  -webkit-text-stroke: 0.25px white;
+}
+
+.tip-container {
+  @apply flex items-start gap-2 bg-gray-950 bg-opacity-60 p-3 rounded-lg border border-gray-800;
+}
+
+.tip-icon {
+  @apply text-purple-500 flex-shrink-0 mt-0.5;
+}
+
+.tip-text {
+  @apply text-gray-200 text-sm;
+}
+
+.boss-title {
+  @apply text-xl font-bold text-purple-400;
+}
+
+.spec-label {
+  @apply text-gray-400 text-sm;
+}
+
+.reset-button {
+  @apply bg-purple-700 hover:bg-purple-600 text-white px-3 py-1 rounded-lg transition-colors text-sm;
+}
+
+.instructions-text {
+  @apply text-gray-400 text-sm text-center;
+}
+
+.no-tips-text {
+  @apply text-gray-400;
+}
+
+.no-tips-subtext {
+  @apply text-gray-500 text-sm mt-2;
+}
