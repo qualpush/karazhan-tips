@@ -652,6 +652,28 @@ export const tipsData = {
         'Romulo & Julianne: Heal through bleeds',
         'Wizard: Chain Heal AoE damage'
       ]
+    },
+    'mage': {
+      'arcane': [
+        'If Red Riding Hood, Blink and kite to edges',
+        'Arcane Blast spam on wolf',
+        'Ice Block if you get targeted and can\'t kite',
+        'Save burst for when wolf is stationary',
+        'Presence of Mind + Arcane Blast for instant damage'
+      ],
+      'fire': [
+        'If Red Riding Hood, Scorch debuff then Fireball spam',
+        'Fire Blast while moving',
+        'Blast Wave for burst AoE if adds',
+        'Living Bomb if talented'
+      ],
+      'frost': [
+        'If Red Riding Hood, kite with Frost Nova',
+        'Frostbolt spam on wolf',
+        'Water Elemental\'s Freeze helps control',
+        'Ice Lance while moving',
+        'Icy Veins during burst window'
+      ]
     }
   },
 
@@ -724,6 +746,29 @@ export const tipsData = {
         'Drop Tremor for Fear',
         'Earth Shield on tank',
         'Riptide on priority targets'
+      ]
+    },
+    'mage': {
+      'arcane': [
+        'Arcane Blast on Terestian',
+        'Swap to Demon Chains immediately - free targets',
+        'Arcane Explosion when demons pack spawns',
+        'Stay at range, use Blink if needed',
+        'Long sustained DPS fight'
+      ],
+      'fire': [
+        'Scorch stacks on Illhoof',
+        'Fireball spam as filler',
+        'Swap to Chains fast',
+        'Blast Wave when demons spawn',
+        'Fire Blast while moving'
+      ],
+      'frost': [
+        'Frostbolt on Illhoof',
+        'Swap to Chains fast',
+        'Blizzard when demons spawn',
+        'Water Elemental helps with adds',
+        'Ice Lance while moving'
       ]
     }
   },
@@ -798,6 +843,29 @@ export const tipsData = {
         'Rotate beam assignments',
         'Move from Void Zones'
       ]
+    },
+    'mage': {
+      'arcane': [
+        'Can soak Blue beam (Dominance) for massive spell damage buff',
+        'Only DPS during Ground Phase',
+        'Run to back during Banish Phase',
+        'Move from Void Zones',
+        'Threat reduction built into Blue beam'
+      ],
+      'fire': [
+        'Blue beam for spell damage buff if assigned',
+        'Fireball spam during Ground Phase',
+        'Pull back during Banish Phase',
+        'Scorch for debuff uptime',
+        'Move from Void Zones'
+      ],
+      'frost': [
+        'Blue beam for spell damage buff if assigned',
+        'Frostbolt during Ground Phase',
+        'Run during Banish Phase',
+        'Water Elemental stays out',
+        'Move from Void Zones'
+      ]
     }
   },
 
@@ -863,19 +931,29 @@ export const tipsData = {
         'Rook: Stay back and heal friendly pieces',
         'Knight: Move forward and damage enemy pieces',
         'Follow raid leader\'s calls for movements'
-      ],
-      'restoration': [
-        'Control Rook piece',
-        'Heal friendly pieces',
-        'Follow raid leader',
-        'No traditional healing rotation',
-        'Use piece abilities'
-      ]
-    }
   },
-
-  // Prince Malchezaar
-  'prince': {
+  'mage': {
+    'arcane': [
+      'Arcane Blast on Terestian',
+      'Swap to Demon Chains immediately - free targets',
+      'Arcane Explosion when demons pack spawns',
+      'Stay at range, use Blink if needed',
+      'Long sustained DPS fight'
+    ],
+    'fire': [
+      'Scorch stacks on Illhoof',
+      'Fireball spam as filler',
+      'Swap to Chains fast',
+      'Blast Wave when demons spawn',
+      'Fire Blast while moving'
+    ],
+    'frost': [
+      'Frostbolt on Illhoof',
+      'Swap to Chains fast',
+      'Blizzard when demons spawn',
+      'Water Elemental helps with adds',
+      'Ice Lance while moving'
+    ]
     'warrior': {
       'arms': [
         'DPS throughout fight',
