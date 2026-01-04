@@ -51,14 +51,25 @@ export const tipsData = {
     },
     'mage': {
       'frost': [
-        'Interrupt assigned spells to drain his mana',
-        'Stand at max range to avoid Charge',
-        'Ice Block if charged and healers are busy'
+        'Frostbolt spam - your main nuke',
+        'Summon Water Elemental at pull',
+        'Icy Veins during merged burn phase',
+        'Cold Snap to reset cooldowns mid-fight',
+        'Ice Lance while moving'
       ],
       'fire': [
-        'Focus Midnight, then burn when they merge',
-        'Position at max range from boss',
-        'Save cooldowns for merged phase'
+        'Scorch to 5 stacks, then Fireball spam',
+        'Stand at max range to avoid Charge',
+        'Combustion during merged burn phase',
+        'Fire Blast while moving',
+        'Save cooldowns for 25% merge'
+      ],
+      'arcane': [
+        'Arcane Blast spam during burn phases with Arcane Power + Icy Veins',
+        'Manage mana with Frostbolt filler rotation (3-4 Frostbolt → 1 Arcane Blast)',
+        'Stand at max range to avoid Charge',
+        'Save cooldowns for merged phase at 25%',
+        'Evocate when mana drops to 20% or between phases'
       ]
     },
     'hunter': {
@@ -545,6 +556,29 @@ export const tipsData = {
         'Keep shackle up entire fight',
         'Heal through Moroes Garrote bleeds',
         'Decurse on cooldown'
+      ]
+    },
+    'mage': {
+      'arcane': [
+        'Sheep assigned add if needed',
+        'Arcane Blast on priority kill targets',
+        'Watch threat - Improved Scorch helps but manage carefully',
+        'Remove Curse of Doom with Remove Lesser Curse',
+        'Long fight - use mana conservation rotation'
+      ],
+      'fire': [
+        'Maintain Scorch stacks on Moroes',
+        'Fireball spam on priority targets',
+        'Blast Wave if adds are grouped',
+        'Remove curses as assigned',
+        'Dragon\'s Breath for extra AoE burst'
+      ],
+      'frost': [
+        'Sheep assigned add',
+        'Frostbolt spam on Moroes',
+        'Water Elemental adds consistent DPS',
+        'Maintain Winter\'s Chill debuff',
+        'Ice Block if you pull threat'
       ]
     }
   },
