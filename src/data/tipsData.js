@@ -2,6 +2,12 @@
 export const tipsData = {
   // Attumen the Huntsman
   'attumen': {
+    bossMechanics: [
+      '⚠️ Shadow Cleave - Frontal cone AoE, face boss away or wipes melee',
+      '⚠️ Threat Resets (2x) - When Attumen spawns (95%) AND merge (25%) - stop DPS',
+      '⚠️ Cannot Be Taunted - Manage threat carefully, healers watch aggro',
+      '⚠️ Intangible Presence - Curse: -50% hit chance, dispel tanks first immediately'
+    ],
     'warrior': {
       'arms': [
         'DPS Midnight first, stop DPS when Attumen spawns until tank has threat',
@@ -610,6 +616,12 @@ export const tipsData = {
 
   // Moroes
   'moroes': {
+    bossMechanics: [
+      '⚠️ Gouge (Tank Stun) - Switches to 2nd threat - requires 2 tanks or off-tank ready',
+      '⚠️ Blind (Poison) - Hits closest non-tank - assign melee soaker or dispel fast',
+      '⚠️ Enrage at 30% - Permanent damage increase - save cooldowns for burn',
+      '⚠️ Add Priority - Kill: Von\'Indi (healer) → Berrybuck (healer) → Millstipe (mana burn) → Others'
+    ],
     'warrior': {
       'arms': [
         'Assigned to DPS priority kill targets - follow raid leader',
